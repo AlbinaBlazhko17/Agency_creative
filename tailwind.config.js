@@ -8,6 +8,9 @@ module.exports = {
         grey: '#464646',
         primary: '#377DFF',
       },
+      fontFamily: {
+        body: ['Nunito'],
+      },
     },
   },
   plugins: [],

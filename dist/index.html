@@ -4,9 +4,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Agency creative</title>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.min.css">
 </head>
-<body>
-
+<body class="font-body">
+	<header class="px-28 py-6 flex justify-between align-middle">
+		<div class="inline-block">
+			<div class="grid grid-rows-2 grid-cols-2">
+				<img src="./assets/icons/logo.svg" class="row-span-2 h-full" alt="logo">
+				<div class="mt-auto text-xl font-bold">Agency</div>
+				<div>Creative</div>
+			</div>
+		</div>
+		<ul class="w-80 flex justify-between items-center">
+			<li>Home</li>
+			<li>About</li>
+			<li>Services</li>
+			<li>Projects</li>
+		</ul>
+		<button class="px-12 py-3 border border-primary text-primary rounded-full font-bold">Contact us</button>
+	</header>
 </body>
 </html>
