@@ -1,0 +1,25 @@
+{
+  "name": "agency_creative",
+  "version": "1.0.0",
+  "description": "Learn Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "npx tailwindcss -i ./src/styles/styles.css -o ./dist/styles/styles.css --watch"
+  },
+  "author": "Albina Blazhko",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-image": "^6.3.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.67.0",
+    "tailwindcss": "^3.3.3",
+    "webpack-stream": "^7.0.0"
+  }
+}
