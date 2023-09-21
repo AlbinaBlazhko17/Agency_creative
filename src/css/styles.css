@@ -26,6 +26,43 @@
 }
 
 .text {
-	@apply text-xl text-grey font-normal leading-relaxed
-	whitespace-pre-line
+	@apply text-xl text-grey font-normal leading-relaxed font-secondary
+}
+
+.padding-x-percent-5 {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.padding-x-percent-10 {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.padding-x-percent-15 {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+
+.padding-y-percent-5 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.padding-y-percent-20 {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.service-card {
+	@apply p-9 flex flex-col items-center
+}
+
+.service-circle {
+	@apply rounded-full w-28 h-28 flex justify-center items-center
+}
+
+.service-text {
+	@apply mt-8 font-secondary font-bold text-2xl text-center leading-relaxed
 }
