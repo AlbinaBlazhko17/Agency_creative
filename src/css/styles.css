@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito:wght@400;700&family=Quicksand:wght@400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+	@apply px-14 py-3 rounded-full font-bold
+}
+
+.btn-outlined {
+	@apply border border-primary text-primary
+}
+
+.btn-filled {
+	@apply bg-primary text-white shadow-md shadow-primary
+}
+
+.subtitle {
+	@apply text-primary font-secondary text-2xl mb-5
+}
+
+.title {
+	@apply text-5xl font-bold tracking-wider
+}
+
+.text {
+	@apply text-xl text-grey font-normal leading-relaxed
+	whitespace-pre-line
+}

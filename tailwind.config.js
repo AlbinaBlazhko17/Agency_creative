@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         body: ['Nunito'],
+        secondary: ['Quicksand'],
       },
     },
   },
