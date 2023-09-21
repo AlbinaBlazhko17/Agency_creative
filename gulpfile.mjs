@@ -57,7 +57,7 @@ gulp.task('watch', () => {
   gulp.watch('./src/img/**/*.*', gulp.parallel('copy-assets'));
   gulp.watch('./src/js/**/*.js', gulp.parallel('build-js'));
   gulp.watch(
-    ['./src/css/styles.css', 'tailwind.config.js'],
+    ['./src/css/styles.css', 'tailwind.config.js', './src/index.html'],
     gulp.parallel('build-css-min')
   );
 });
