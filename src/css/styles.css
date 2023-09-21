@@ -75,3 +75,7 @@
 .portfolio-text {
 	@apply text-white font-secondary font-bold text-2xl absolute bottom-5 left-5
 }
+
+.feedback-text {
+	@apply text-left text-lg font-secondary text-opacity-80 text-grey leading-relaxed
+}
