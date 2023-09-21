@@ -44,6 +44,11 @@
 	padding-right: 15%;
 }
 
+.padding-x-percent-20 {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
 
 .padding-y-percent-5 {
 	padding-top: 5%;
@@ -65,4 +70,8 @@
 
 .service-text {
 	@apply mt-8 font-secondary font-bold text-2xl text-center leading-relaxed
+}
+
+.portfolio-text {
+	@apply text-white font-secondary font-bold text-2xl absolute bottom-5 left-5
 }
