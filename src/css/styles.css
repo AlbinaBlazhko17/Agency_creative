@@ -79,3 +79,11 @@
 .feedback-text {
 	@apply text-left text-lg font-secondary text-opacity-80 text-grey leading-relaxed
 }
+
+.footer-list-title {
+	@apply mb-6 text-lg font-bold text-white font-secondary
+}
+
+.footer-list-links {
+	@apply mb-5 text-base font-light text-white font-secondary
+}

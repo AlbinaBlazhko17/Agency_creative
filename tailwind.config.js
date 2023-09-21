@@ -7,6 +7,7 @@ module.exports = {
         black: '#1D1D1D',
         grey: '#464646',
         primary: '#377DFF',
+        footer: '#383638',
       },
       fontFamily: {
         body: ['Nunito'],
