@@ -61,7 +61,7 @@
 }
 
 .service-card {
-	@apply p-9 flex flex-col items-center
+	@apply p-9 flex flex-col items-center border border-black border-opacity-10 rounded-3xl
 }
 
 .service-circle {
