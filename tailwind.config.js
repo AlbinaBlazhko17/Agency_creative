@@ -13,6 +13,9 @@ module.exports = {
         body: ['Nunito'],
         secondary: ['Quicksand'],
       },
+      screens: {
+        sm: '320px',
+      },
     },
   },
   plugins: [],
