@@ -15,13 +15,17 @@
 				<div>Creative</div>
 			</div>
 		</div>
-		<ul class="w-80 flex justify-between items-center overflow-hidden flex-wrap">
-			<li class="hover:font-extrabold transition duration-300 transform hover:-m-px"><a href="#">Home</a></li>
-			<li class="hover:font-extrabold transition duration-300 transform hover:-m-px"><a href="#">About</a></li>
-			<li class="hover:font-extrabold transition duration-300 transform hover:-m-px"><a href="#">Services</a></li>
-			<li class="hover:font-extrabold transition duration-300 transform hover:-m-px"><a href="#">Projects</a></li>
+		<ul class="w-80 flex 2xl:justify-between md:flex-col items-center overflow-hidden flex-wrap md:fixed md:top-0 md:w-[70%] md:h-[100vh] md:bg-primary md:bg-opacity-50 md:z-50 md:justify-center md:text-white menu">
+			<li class="hover:font-extrabold hover:-m-px md:my-4 md:text-xl md:font-bold menu-item"><a href="#">Home</a></li>
+			<li class="hover:font-extrabold hover:-m-px md:my-4 md:text-xl md:font-bold menu-item"><a href="#">About</a></li>
+			<li class="hover:font-extrabold hover:-m-px md:my-4 md:text-xl md:font-bold menu-item"><a href="#">Services</a></li>
+			<li class="hover:font-extrabold hover:-m-px md:my-4 md:text-xl md:font-bold menu-item"><a href="#">Projects</a></li>
 		</ul>
-		<button class="btn btn-outlined transition duration-300 hover:bg-primary hover:text-white hover:shadow-md hover:shadow-primary">Contact us</button>
+		<button class="btn btn-outlined transition duration-300 hover:bg-primary hover:text-white hover:shadow-md hover:shadow-primary md:fixed md:top-[80%] md:-right-full md:z-50 md:bg-primary md:text-white contact">Contact us</button>
+		<div>
+			<img src="./assets/icons/align-center.svg" alt="menu" class="w-14 h-14 hamburger hamburger-active">
+			<img src="./assets/icons/close.png" alt="icons" class="w-10 h-10 close">
+		</div>
 	</header>
 	<main>
 		<section class="text-center font-bold">
@@ -186,7 +190,7 @@ With Us?</div>
 	</main>
 	<footer class="bg-footer 2xl:px-24 2xl:pt-24 2xl:pb-7 sm:px-10 sm:pt-12 sm:pb-5 overflow-hidden">
 		<div class="flex 2xl:justify-start sm:block">
-			<div class="bg-slate-50 h-[100px] 2xl:max-w-max sm:w-36 rounded-3xl px-5 py-6 2xl:mr-20 sm:mb-10">
+			<div class="bg-slate-50 h-[100px] 2xl:max-w-max sm:w-44 rounded-3xl px-5 py-6 2xl:mr-20 sm:mb-10">
 				<div class="grid grid-rows-2 grid-cols-2">
 					<img src="./assets/icons/logo.svg" class="row-span-2 h-full" alt="logo">
 					<div class="mt-auto text-xl font-bold">Agency</div>
@@ -240,5 +244,6 @@ With Us?</div>
 			</div>
 		</div>
 	</footer>
+	<script type="module" src="./js/script.js"></script>
 </body>
 </html>
