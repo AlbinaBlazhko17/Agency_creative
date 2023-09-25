@@ -14,7 +14,7 @@ module.exports = {
         secondary: ['Quicksand'],
       },
       screens: {
-        sm: '320px',
+        xsm: '320px',
       },
     },
   },
